@@ -18,6 +18,6 @@ public class ThisKeywordChaining {
 	}
 
 	public static void main(String args[]) {
-		ThisKeyword obj1 = new ThisKeyword();
+		ThisKeyword obj1 = new ThisKeyword(0);
 	}
 }
