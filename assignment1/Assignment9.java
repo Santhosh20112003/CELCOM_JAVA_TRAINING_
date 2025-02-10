@@ -1,4 +1,4 @@
-package com.celcom.day5;
+package com.celcom.assignment1;
 
 class Vehicle {
 	void drive() {
