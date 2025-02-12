@@ -32,6 +32,8 @@ class NegativeAgeException extends RuntimeException {
 	}
 }
 
+//Main Class calling Exception Class
+
 public class CustomException {
 
 	public static void main(String[] args) {
@@ -48,8 +50,6 @@ public class CustomException {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-		
-
 	}
 
 }
