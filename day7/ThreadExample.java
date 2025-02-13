@@ -16,7 +16,7 @@ class Thread1 extends Thread {
 public class ThreadExample {
 	public static void main(String[] args) throws Exception {
 		Thread t = Thread.currentThread();
-		System.out.println(t);
+		System.out.println(t.getState());
 		System.out.println(t.getName());
 		System.out.println(t.getPriority());
 
