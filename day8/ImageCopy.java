@@ -35,7 +35,6 @@ public class ImageCopy {
 			}
 			obj.close();
 		}
-
 		obj1.close();
 
 	}
