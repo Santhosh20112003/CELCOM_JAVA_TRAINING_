@@ -77,7 +77,7 @@ public class ThreadExample6 {
 		Data data = new Data();
 		Withdrawer obj1 = new Withdrawer(data);
 		Deposit obj2 = new Deposit(data);
-
+		
 		obj1.start();
 
 		Thread.sleep(2000);
