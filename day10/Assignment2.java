@@ -44,7 +44,7 @@ class Producer implements Runnable {
         try {
             while (true) {
                 buffer.produce(item++);
-                Thread.sleep(100); // Simulate time taken to produce
+                Thread.sleep(100);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
